@@ -18,6 +18,7 @@ requestsController.consultworker = (req, res) => {
     console.log(body);
     const jsonString = JSON.stringify(body);
     console.log(jsonString);
+    res.json({ message:'Solicitud recibida correctamente, sin registro'});
     // if(jsonString != "")
     // {
     //     const process = spawn('python',[PythonPlantillasHorizontal,jsonString]);
