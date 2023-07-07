@@ -16,8 +16,8 @@ PythonConsultWorker = "./src/python/ConsultarColaborador.py";
 requestsController.consultworker = (req, res) => {
     const { body } = req;
     console.log(body);
-    const jsonString = JSON.stringify(body);
-    console.log(jsonString);
+    //const jsonString = JSON.stringify(body);
+    //console.log(jsonString);
     res.json({ message:'Solicitud recibida correctamente, sin registro'});
     // if(jsonString != "")
     // {
